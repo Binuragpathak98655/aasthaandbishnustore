@@ -1,27 +1,32 @@
-# 🛒 Aastha & Bishnu Store
+# Aastha & Bishnu Store
 
-A simple, responsive grocery store website built with HTML, CSS, and JavaScript.
+A simple grocery store website built with React + Vite.
 
 ## Features
 
-- Product catalog with add-to-cart functionality
-- Shopping cart with localStorage persistence
-- Responsive design (mobile-friendly)
+- Product catalog with add-to-cart
+- Shopping cart (persisted to localStorage)
+- Responsive design
 - Contact form
-- Smooth scrolling navigation
+- Smooth scroll navigation
 
-## Usage
+## Commands
 
-Open `index.html` in any browser — no build tools required.
+```bash
+npm install      # install dependencies
+npm run dev      # start dev server
+npm run build    # build for production
+npm run preview  # preview production build
+```
 
 ## Structure
 
 ```
-index.html       — Main page
-css/style.css    — Styles
-js/script.js     — Cart, navigation, form logic
+src/
+  components/    # React components
+  data/          # product data
+  App.jsx        # main app
+  App.css        # styles
+  index.css      # global reset / variables
+  main.jsx       # entry point
 ```
-
-## Preview
-
-A static grocery store landing page featuring a hero section, product grid, about section, and contact form.
